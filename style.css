@@ -88,13 +88,13 @@
 }
 .row1-col2 > div {
     width: 33.33%;
-    height: 16.67%;
+    height: 16.667%;
     float: left;
     border: 1px solid black;
 }
 .row3-col2 > div {
     width: 33.33%;
-    height: 16.67%;
+    height: 16.667%;
     float: right;
     border: 1px solid black;
 }
