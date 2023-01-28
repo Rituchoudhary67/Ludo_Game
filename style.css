@@ -158,7 +158,18 @@ i {
     position: absolute;
     right: 10px;
 }
-
+.circle-tri {
+    height: 55%;
+    width: 55%;
+    margin: 30px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 1;
+    padding: 10px;
+    padding-left: 7px;
+    padding-top: 15px;
+}
 
 
 
