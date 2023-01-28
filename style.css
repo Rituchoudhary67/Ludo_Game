@@ -33,11 +33,16 @@
     height: 20%;
     width: 100%;
 }
+.row2-col2 {
+    height: 20%;
+    width: 20%;
+}
 .circle {
     background-color: green;
     height: 30px;
     width: 30px;
     border-radius: 50%;
+    border: 3.5px solid rgb(3, 253, 3);
 }
 .green {
     background-color: green;
@@ -45,11 +50,20 @@
 .red,.cir-red{
     background-color: red;
 }
+.cir-red {
+    border: 3.5px solid rgb(148, 1, 1);
+}
 .blue ,.cir-blue{
     background-color: blue;
 }
+.cir-blue {
+    border: 3.5px solid rgb(0, 183, 255);
+}
 .yellow ,.cir-yellow {
     background-color: yellow;
+}
+.cir-yellow {
+   border: 3.5px solid gold;
 }
 .box-con-parent {
     display: flex;
@@ -58,7 +72,7 @@
 }
 
 .box-con {
-    margin-top: -50px;
+    margin-top: -45px;
 }
 .box-con .box {
     background-color: white;
@@ -67,8 +81,18 @@
     margin-top: 40px;
     padding: 10px;
 }
-
-
+.row1-col2 > div {
+    width: 33.33%;
+    height: 16.67%;
+    float: left;
+    border: 1px solid black;
+}
+.row3-col2 > div {
+    width: 33.33%;
+    height: 16.67%;
+    float: right;
+    border: 1px solid black;
+}
 
 
 
