@@ -183,6 +183,19 @@ i {
 #dice-img:hover {
     cursor: pointer;
     box-shadow: 4px 4px 4px gray;
+    animation: rotation 0.7s infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(50deg);
+    }
+    50% {
+        transform: rotate(-50deg);
+    }
+    100% {
+        transform: rotate(50deg);
+    }
 }
 
 

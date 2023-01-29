@@ -1,3 +1,6 @@
+const diceImg = document.getElementById("dice-img");
+
+
 // writting a function for movement of dice which getting random value
 
 function diceMove() {
